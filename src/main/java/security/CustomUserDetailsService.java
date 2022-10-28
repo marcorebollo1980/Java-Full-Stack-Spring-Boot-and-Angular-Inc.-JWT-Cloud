@@ -10,11 +10,10 @@ import org.springframework.stereotype.Service;
 import service.IUserService;
 import util.SecurityUtils;
 
-import java.util.Optional;
 import java.util.Set;
 
 @Service
-public class CutomUserDetailsService implements UserDetailsService {
+public class CustomUserDetailsService implements UserDetailsService {
 
     @Autowired
     private IUserService userService;
