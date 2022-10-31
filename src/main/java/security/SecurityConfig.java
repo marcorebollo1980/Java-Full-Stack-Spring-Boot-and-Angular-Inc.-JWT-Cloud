@@ -57,5 +57,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 registry.addMapping("/**").allowedOrigins("*").allowedMethods("*");
             }
         };
+
+
     }
 }
